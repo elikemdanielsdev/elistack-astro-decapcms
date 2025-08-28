@@ -12,6 +12,6 @@ collections:
     create: true # Allow users to create new documents in this collection
     fields: # The fields for each document, usually in frontmatter
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "publisDdate", widget: "datetime" }
+      - { label: "Publish Date", name: "publishDdate", widget: "datetime" }
       - { label: "Featured Image", name: "featuredImage", widget: "image" }
       - { label: "Content", name: "content", widget: "markdown" }
